@@ -15,6 +15,8 @@ app.use(express.static(path.join(__dirname, './public')))
 app.use(express.static(path.join(__dirname, './public/js')))
 app.use(express.static(path.join(__dirname, './public/images')))
 app.use(express.static(path.join(__dirname, './parallax.js-1.5.0')))
+app.use(express.static(path.join(__dirname, './materialize')))
+// app.use(express.static(path.join(__dirname, './parallax-template')))
 
 // Parse request body as JSON
 app.use(express.urlencoded({ extended: true }));
