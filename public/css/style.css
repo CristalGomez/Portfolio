@@ -11,6 +11,11 @@ html {
     max-height: 100%;
 }
 
+
+li, ul {
+  color: black;
+}
+
 #home {
     min-height: 400px;
 }
@@ -78,7 +83,9 @@ a:hover {
 
 #aboutMe {
     font-size: 16px;
+    color: black;
 }
+
 
 .footer {
     background-color: black;
@@ -89,8 +96,6 @@ a:hover {
     background-color: black;
     position: fixed;
 }
-
-
 
 body {
     display: flex;
@@ -108,19 +113,19 @@ body {
 }
 
 .home {
-    background-color: blue
+    background-color: white;
 }
 
 .about {
-    background-color: yellow
+    background-color:white;
 }
 
 .projects {
-    background-color: pink
+    background-color: white;
 }
 
 .skills {
-    background-color: lightblue
+    background-color: white;
 }
 
 
@@ -175,6 +180,7 @@ https://github.com/necolas/normalize.css/ */
   h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    color: black
   }
   
   /* Grouping content
