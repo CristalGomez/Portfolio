@@ -6,6 +6,33 @@ html {
     scroll-behavior: smooth;
 }
 
+.frontend {
+  border-color: black;
+  border-style: dotted;
+  height: 100%;
+}
+
+.backend{
+  border-color: black;
+  border-style: dotted;
+  height: 100%;
+
+}
+
+.design{
+  border-color: black;
+  border-style: dotted;
+  height: 100%;
+
+}
+
+.other {
+  border-color: black;
+  border-style: dotted;
+  height: 100%;
+
+}
+
 
 .container {
     max-width: 100%;
@@ -17,7 +44,9 @@ html {
 
 .links {
   color: black;
-  font-family: sans-serif
+  font-family: serif;
+  font-size: 18px;
+
 }
 
 li, ul {
@@ -93,13 +122,16 @@ a:hover {
 }
 
 #aboutMe {
-    font-size: 16px;
-    font-family: sans-serif;
+    font-size: 18px;
+    font-family: serif;
     color: black;
+    line-height: 35px;
 }
 
 .skills-list {
-  font-family: sans-serif
+  font-family: serif;
+  line-height: 35px;
+  font-size: 18px;
 }
 
 
@@ -109,29 +141,29 @@ a:hover {
 }
 
 .page-footer {
-    background-color: black;
-    position: fixed;
+  background-color: black;
+  position: sticky;
+  text-align: center;
 }
 
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
 
-  main {
-    flex: 1 0 auto;
-  }
+main {
+  flex: 1 0 auto;
+}
 
 .section {
-    width: 100%;
-    height: 100vh;
-    display: inline-block;
-
+  width: 100%;
+  height: 100vh;
+  display: inline-block;
 }
 
 .home {
-    background-color: white;
+  background-color: white;
 }
 
 .about {
