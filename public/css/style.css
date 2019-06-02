@@ -3,14 +3,21 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    }
+    scroll-behavior: smooth;
+}
+
 
 .container {
     max-width: 100%;
-    margin: 0;
+    margin: 0 auto;
     max-height: 100%;
+    padding: 10px;
+    display: inline-block;
 }
 
+.links {
+  color: black
+}
 
 li, ul {
   color: black;
@@ -36,9 +43,12 @@ nav {
     padding: 5px;
     height: 100%;
 }
+
+
 .brand-logo {
     margin-left: 10px;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 
@@ -110,6 +120,8 @@ body {
 .section {
     width: 100%;
     height: 100vh;
+    display: inline-block;
+
 }
 
 .home {
@@ -127,6 +139,7 @@ body {
 .skills {
     background-color: white;
 }
+
 
 
 
