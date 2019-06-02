@@ -16,7 +16,8 @@ html {
 }
 
 .links {
-  color: black
+  color: black;
+  font-family: sans-serif
 }
 
 li, ul {
@@ -93,7 +94,12 @@ a:hover {
 
 #aboutMe {
     font-size: 16px;
+    font-family: sans-serif;
     color: black;
+}
+
+.skills-list {
+  font-family: sans-serif
 }
 
 
