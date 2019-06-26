@@ -99,11 +99,37 @@ nav {
     width: 400px;
     background: black;
     color: white;
-    position: absolute;
-    top: 50%;
+    display: inline-block flex;
+    float: left;
+    margin: auto auto;
+
+    /* top: 50%;
     left: 50%;
     margin-top: -100px;
-    margin-left: -200px;
+    margin-left: -200px; */
+}
+
+.container-projects {
+  margin-left: 10%;
+  margin-right: 10%
+}
+
+.container-skills {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%
+}
+
+
+.navigate {
+  font-family: 'Poiret One', cursive;
+  font-size: 25px;
+  height: 200px;
+  width: 400px;
+  background: black;
+  color: white;
+  display: inline-block;
+  float: left;
 }
 
 a:hover {
