@@ -7,6 +7,18 @@ html {
   scroll-behavior: smooth;
 }
 
+.aboutMe{
+  color: black;
+  font-size: 22px;
+  background-color: transparent;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;  
+  margin-left:-100px; 
+  font-family: 'Abril Fatface', cursive;
+}
+
 .bio1{
 float: left
 }
@@ -51,6 +63,7 @@ float:left
 
 .index-bg{
   background: url(/images/leveascopy.jpg) no-repeat center center fixed;
+  background-blend-mode: exclusion;
   background-size: 100%;
   min-width: 100%;
   min-height: 100%
@@ -132,7 +145,10 @@ main {
 li, ul {
   color: black;
 }
-
+h1{
+  font-family: 'Abril Fatface', cursive;
+  text-decoration: underline
+}
 nav {
   background-color: black;
   font-family: 'Poiret One', cursive;
@@ -140,6 +156,7 @@ nav {
 
 a:hover {
   color: rgb(194, 241, 242);
+  text-decoration: underline;
 }
 
 #aboutMe {
@@ -154,6 +171,10 @@ a:hover {
   line-height: 35px;
   font-size: 18px;
 }
+
+
+
+
 
 /* --------------------------------------------- images ---------------------------------------------*/
 
