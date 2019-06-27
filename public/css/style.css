@@ -1,95 +1,59 @@
+/* --------------------------------------------- page formatting ---------------------------------------------*/
 html {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    scroll-behavior: smooth;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  scroll-behavior: smooth;
 }
 
-.frontend {
-  border-color: black;
-  border-style: dotted;
+.bio1{
+float: left
+}
+.bio2{
+float: left
+}
+.bio3{
+float:left
+}
+
+.frontend, .backend, .design, .other {
   height: 100%;
-}
-
-.backend{
-  border-color: black;
-  border-style: dotted;
-  height: 100%;
-
-}
-
-.design{
-  border-color: black;
-  border-style: dotted;
-  height: 100%;
-
-}
-
-.other {
-  border-color: black;
-  border-style: dotted;
-  height: 100%;
-
-}
-
-
-.container {
-    max-width: 100%;
-    margin: 0 auto;
-    max-height: 100%;
-    padding: 10px;
-    display: inline-block;
-}
-
-.links {
-  color: black;
-  font-family: serif;
-  font-size: 18px;
-
-}
-
-li, ul {
-  color: black;
 }
 
 #home {
-    min-height: 400px;
+  min-height: 400px;
 }
 
-/* .parallax {
-    min-height: 500px;
-    background: transparent;
-    width: 100%
-} */
-
-nav {
-    background-color: black;
-    font-family: 'Poiret One', cursive;
-
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  max-height: 100%;
+  padding: 10px;
+  display: inline-block;
 }
 
 .nav-wrapper {
-    padding: 5px;
-    height: 100%;
+  padding: 5px;
+  height: 100%;
 }
 
 
 .brand-logo {
-    margin-left: 10px;
-    margin-bottom: 5px;
-    text-align: center;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 #bio {
-    float: left
+  float: left
 }
 
 .index-bg{
-    background: url(/images/leveascopy.jpg) no-repeat center center fixed;
-    background-size: 100%;
-    min-width: 100%;
-    min-height: 100%
+  background: url(/images/leveascopy.jpg) no-repeat center center fixed;
+  background-size: 100%;
+  min-width: 100%;
+  min-height: 100%
 }
 
 .intro {
@@ -102,11 +66,6 @@ nav {
     display: inline-block flex;
     float: left;
     margin: auto auto;
-
-    /* top: 50%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -200px; */
 }
 
 .container-projects {
@@ -120,7 +79,6 @@ nav {
   margin-right: 10%
 }
 
-
 .navigate {
   font-family: 'Poiret One', cursive;
   font-size: 25px;
@@ -132,36 +90,8 @@ nav {
   float: left;
 }
 
-a:hover {
-    color: rgb(194, 241, 242);
-}
-
-#me {
-    border-radius: 50%;
-    max-width: 100%;
-    max-height: 310px;
-  }
-
-.card {
-    width: 80%
-}
-
-#aboutMe {
-    font-size: 18px;
-    font-family: serif;
-    color: black;
-    line-height: 35px;
-}
-
-.skills-list {
-  font-family: serif;
-  line-height: 35px;
-  font-size: 18px;
-}
-
-
 .footer {
-    background-color: black;
+  background-color: black;
 
 }
 
@@ -187,21 +117,51 @@ main {
   display: inline-block;
 }
 
-.home {
+.home, .about, .projects, .skills {
   background-color: white;
 }
 
-.about {
-    background-color:white;
+/* --------------------------------------------- fonts --------------------------------------------- */
+.links {
+  color: black;
+  font-family: serif;
+  font-size: 18px;
+
 }
 
-.projects {
-    background-color: white;
+li, ul {
+  color: black;
 }
 
-.skills {
-    background-color: white;
+nav {
+  background-color: black;
+  font-family: 'Poiret One', cursive;
 }
+
+a:hover {
+  color: rgb(194, 241, 242);
+}
+
+#aboutMe {
+  font-size: 18px;
+  font-family: serif;
+  color: black;
+  line-height: 35px;
+}
+
+.skills-list {
+  font-family: serif;
+  line-height: 35px;
+  font-size: 18px;
+}
+
+/* --------------------------------------------- images ---------------------------------------------*/
+
+.card {
+  width: 80%
+}
+
+/* --------------------------------------------- media queries --------------------------------------------- */
 
 @media only screen and (max-width: 980px) {
 
@@ -217,7 +177,7 @@ main {
 
   .index-bg{
     background: url(/images/leavescopy.jpg) no-repeat;
-    background-size: 100%;
+    background-size: 100vh;
     width: 100%;
     height: 100%;
   }
@@ -235,8 +195,6 @@ main {
 .show-on-small
 .show-on-medium-and-up
 .show-on-medium-and-down
-
-
 
 
 /* normalize css */
@@ -594,3 +552,5 @@ https://github.com/necolas/normalize.css/ */
   [hidden] {
     display: none;
   }
+
+
