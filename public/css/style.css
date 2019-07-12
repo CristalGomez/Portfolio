@@ -5,6 +5,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
   scroll-behavior: smooth;
+  background-color: silver
 }
 
 .aboutMe{
@@ -62,7 +63,6 @@ float:left
 }
 
 .index-bg{
-  background: url(/images/leveascopy.jpg) no-repeat center center fixed;
   background-blend-mode: exclusion;
   background-size: 100%;
   min-width: 100%;
@@ -145,14 +145,11 @@ main {
 li, ul {
   color: black;
 }
-h1{
-  font-family: 'Abril Fatface', cursive;
-  text-decoration: underline
+
+a{
+  color: black;
 }
-nav {
-  background-color: black;
-  font-family: 'Poiret One', cursive;
-}
+
 
 a:hover {
   color: rgb(194, 241, 242);
@@ -197,7 +194,6 @@ a:hover {
   }
 
   .index-bg{
-    background: url(/images/leavescopy.jpg) no-repeat;
     background-size: 100vh;
     width: 100%;
     height: 100%;
