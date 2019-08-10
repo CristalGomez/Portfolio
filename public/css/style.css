@@ -8,20 +8,51 @@ html {
 
 }
 
-.parallax-window {
-  min-height: 400px;
-  background: transparent;
+.welcome{
+	position: relative;
+    display: flex;
+    height: 100vh;
+    background: #2F2E2E;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+
+#canvas {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.info{
+	background-color: #4A4A4A;
+	color: white;
+	position: relative;
+	width: 45%;
+	padding: 10px;
+	margin: 0;
+	float: left;
+	top: 22rem;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 24px;
+}
+
+.directory{
+	font-family: 'Courier New', Courier, monospace;
+	color: white;
+	padding: 10px;
+	margin: 0 auto;
+	display: block;
 }
 
 col{
   background-color: #f9f9f9
 }
-
-.parallax{
-  background-color:transparent;
-  min-height: 100px;
-}
-
 
 .bio1{
 float: left
@@ -362,5 +393,7 @@ figure.effect-julia:hover p {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
+
+
 
 
