@@ -11,170 +11,81 @@
 
     <div class="directory">
         <p style="color:white"><a style="color:white" href="#section1">About</a> | <a style="color:white"
-        href="#section2">Skills</a> | <a style="color:white" href="#section3">Projects</a></p>
+                href="#section2">Skills</a> | <a style="color:white" href="#section3">Projects</a></p>
     </div>
-
 </section>
 
-
-
-
-<div id="section1">
-
+<section class="section1">
     <div class="row">
-        <div aling="middle" class="col s12 l12 m12">
-            <span>
-                <a href="#section1"><i class="fas fa-home"></i></a>
-                <a href="#section2"><i class="fas fa-pencil-alt"></i></a>
-                <a href="#section3"><i class="fas fa-briefcase"></i></a>
-            </span>
+        <div class="bio1 col s12 m12 l3"></div>
+        <div class="bio2 col s12 m12 l6">
+            <p>Howdy! My name is Cristal Gomez and I am a Full-Stack Web Developer. I learned how to code
+                through the University of Texas' Coding Bootcamp from 2018-2019. I started from building basic HTML
+                pages to building full-stack web-apps in 24 weeks. The bootcamp challenged my ability to
+                learn quickly and work with others. I had the opportunity to collaborate with three different groups
+                to build three websites, and independently build various other web-apps.</p>
+            <a href="https://www.linkedin.com/in/cristalgomez/" target="blank"><img style="width:10%"
+                    src="/images/linkedin.png"></a>
+
+            <a href="https://github.com/CristalGomez" target="blank"><img style="width:9%" src="/images/github.png"></a>
+
+            <a href="/resume_public.pdf" target="blank"><img style="width:9%" src="/images/resume.png"></a>
         </div>
+        <div class="bio3 col s12 m12 l3"></div>
     </div>
+    <div class="gap"></div>
+</section>
 
-    {{!-- end of nav bar --}}
-
-    <div>
-        <div class="row">
-            <div class="col s12 l2 m2 bio1"></div>
-
-            <div class="col s12 l8 m8 bio2">
-                <p id="aboutMe" class="flow-text">
-                    Howdy! My name is Cristal Gomez and I am a Full-Stack Web Developer. I learned how to code
-                    through the University of Texas' Coding Bootcamp from 2018-2019. I started from building basic HTML
-                    pages to building full-stack web-apps in 24 weeks. The bootcamp challenged my ability to
-                    learn quickly and work with others. I had the opportunity to collaborate with three different groups
-                    to build three websites, and independently build various other web-apps.
-                </p>
-            </div>
-
-            <div class="col s12 l2 m2 bio3"></div>
-
-        </div>
-        <div class="container">
-            <div align="middle" class="row">
-                <div class="s12 l12 m12">
-
-                    <a href="https://www.linkedin.com/in/cristalgomez/" target="blank"><img style="width:10%"
-                            src="/images/linkedin.png"></a>
-
-                    <a href="https://github.com/CristalGomez" target="blank"><img style="width:9%"
-                            src="/images/github.png"></a>
-
-                    <a href="/resume_public.pdf" target="blank"><img style="width:9%" src="/images/resume.png"></a>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-
-
-
-<div class="parallax" data-parallax="scroll" data-image-src="./images/plants.jpg"></div>
-
-
-
-<div id="section2">
-    <div class="row">
-        <div class="col s12 l12 m12">
-            <span>
-                <a href="#section1"><i class="fas fa-home"></i></a>
-                <a href="#section2"><i class="fas fa-pencil-alt"></i></a>
-                <a href="#section3"><i class="fas fa-briefcase"></i></a>
-            </span>
-        </div>
-    </div>
-    {{!-- end of nav bar --}}
+<section class="section2">
+    <div class="gap"></div>
     <div class="container">
         <div class="row">
-            <div class="col s12 l12 m12">
-                <h1 style="font-weight:bold" align="middle">Skills</h1>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            {{!-- frontend --}}
-            <div class="col s12 l3 m3">
+            <div class="frontEnd col s12 m12 l3">
                 <h5>Front-End</h5>
                 <ul>
-                    <li>
-                        HTML/CSS
-                    </li>
-                    <li>
-                        JavaScript / ES6 / jQuery
-                    </li>
-                    <li>
-                        API/AJAX
-                    </li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript/ES6/jQuery</li>
+                    <li>RESTful APIs</li>
                 </ul>
 
             </div>
-            {{!-- backend --}}
-            <div class="col s12 l3 m3">
+            <div class="backEnd col s12 m12 l3">
                 <h5>Back-End</h5>
                 <ul>
-                    <li>
-                        MongoDB / MySQL
-                    </li>
-                    <li>
-                        Node
-                    </li>
-                    <li>
-                        Unit Testing
-                    </li>
-                    <li>
-                        JSON
-                    </li>
-                    <li>SCRUM / Agile</li>
+                    <li>MongoDB / MySQL</li>
+                    <li>Node</li>
+                    <li>Express</li>
+                    <li>Unit Testing</li>
+                    <li>Java</li>
                 </ul>
 
             </div>
-            {{!-- framerworks/UI/UX --}}
-            <div class="col s12 l3 m3">
-                <h5>Frameworks / UI/UX</h5>
+            <div class="frameworks col s12 m12 l3">
+                <h5>Frameworks</h5>
                 <ul>
                     <li>React / Redux</li>
                     <li>Handlebars.js</li>
                     <li>Materialize / Bootstrap</li>
-                    <li>User Stories</li>
-                    <li>Adobe Suite / Wireframing</li>
+                    <li>Adobe Suite</li>
                 </ul>
 
             </div>
-            {{!-- other --}}
-            <div class="col s12 l3 m3">
+            <div class="other col s12 m12 l3">
                 <h5>Other</h5>
                 <ul>
-                    <li>Git(Git Flow)</li>
+                    <li>User stories</li>
+                    <li>SCRUM / Agile</li>
+                    <li>Git (Git Flow)</li>
                     <li>Version Control Software</li>
-                    <li>Heroku</li>
-
                 </ul>
-
             </div>
         </div>
     </div>
-</div>
+</section>
 
 
-<div class="parallax" data-parallax="scroll" data-image-src="./images/plants.jpg"></div>
-
-
-<div id="section3">
-
-    <div class="row">
-        <div aling="middle" class="col s12 l12 m12">
-            <span>
-                <a href="#section1"><i class="fas fa-home"></i></a>
-                <a href="#section2"><i class="fas fa-pencil-alt"></i></a>
-                <a href="#section3"><i class="fas fa-briefcase"></i></a>
-            </span>
-        </div>
-    </div>
-    {{!-- end of nav bar --}}
+<section class="section3">
     <div class="container">
         <div class="row">
             <div class="col s12 l12 m12">
@@ -289,7 +200,9 @@
             </figure>
         </div>
     </div>
-</div>
+
+</section>
+
 
 
 
