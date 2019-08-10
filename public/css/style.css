@@ -27,11 +27,6 @@ html {
 }
 
 
-.section3{
-	background: #2F2E2E;
-
-}
-
 .info{
 	background-color: #4A4A4A;
 	color: white;
@@ -97,11 +92,29 @@ float:left
   min-height: 400px;
 }
 
-.container {
+.section5{
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+	display: block;
+	background: #2F2E2E;
 
+}
+
+.section3{
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+	display: block;
+	background: #2F2E2E;
+}
+
+.section4 {
   margin: 0 auto;
   height: 100%;
-  width: 100vh;
+  width: 100%;
   padding: 10px;
   display: block;
   background: #D0D0D0;
@@ -185,7 +198,8 @@ a{
 }
 
 h1,h2,h3,h4,h5 {
-  font-family: 'Nixie One', cursive;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
 }
 
 a:hover {
