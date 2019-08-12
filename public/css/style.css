@@ -41,8 +41,6 @@ html {
 	font-size: 24px;
 }
 
-
-
 .section1{
 	background-color: #2F2E2E;
 	color: white;
@@ -103,6 +101,10 @@ float:left
 	width: 100%;
 	padding: 10px;
 	background: #2F2E2E;
+}
+
+.grid{
+	display:block;
 }
 
 .section4 {
@@ -191,7 +193,7 @@ a{
   color: black;
 }
 
-h1,h2,h3,h4 {
+h1,h2,h3,h4, h6 {
   font-family: 'Courier New', Courier, monospace;
   color: white;
 }
@@ -201,6 +203,7 @@ h5{
 	color: black;
 	text-decoration: underline;
 }
+
 
 a:hover {
   color: rgb(194, 241, 242);
