@@ -16,6 +16,14 @@ html {
     opacity: 0;
 }
 
+.container{
+	max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0px auto;
+    padding: 10px;
+}
+
 .welcome{
 	position: relative;
     display: flex;
@@ -139,7 +147,6 @@ float:left
 #bio {
   float: left
 }
-
 
 .navigate {
   font-family: 'Poiret One', cursive;
@@ -323,8 +330,7 @@ a:hover {
 .show-on-medium-and-up
 .show-on-medium-and-down
 
-/* hover box effects
-credit to: file:///Users/cristalgomez/Desktop/HoverEffectIdeas/index2.html */
+/* hover box effects */
 
 .grid {
 	position: relative;
